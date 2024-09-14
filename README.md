@@ -11,11 +11,11 @@
 </ul>
 
 <h3>Getting Started</h3>
-<h4>Clone the repository</h4>
+Clone the repository
+<br>
 git clone https://github.com/Gregory95/gkoTradeService.git
-<br>
 cd gkoTradeService
-<br>
+
 
 Running the Service
 <br>
