@@ -11,11 +11,13 @@
 </ul>
 
 <h3>Getting Started</h3>
-Clone the repository
-bash
-Copy code
-git clone https://github.com/yourusername/MyMicroservice.git
-cd MyMicroservice
+<h5>Clone the repository</h5>
+
+<div>git clone https://github.com/yourusername/MyMicroservice.git
+cd MyMicroservice</div>
+
+
+
 Install dependencies
 bash
 Copy code
