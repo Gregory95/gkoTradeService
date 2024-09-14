@@ -11,7 +11,7 @@
 </ul>
 
 ## Getting Started
-*Clone the repository
+* Clone the repository
 ```
 git clone https://github.com/Gregory95/gkoTradeService.git
 cd gkoTradeService
@@ -41,7 +41,7 @@ docker run -dp 127.0.0.1:8080:8080 gko95/gkotradeservice
 ```
 
 ## API Endpoints
-* The following endpoints are available in the API:
+# The following endpoints are available in the API:
 
 <ul>
   <li>GET api/cryptoprices?start={datetime}Z&end={datetime} - Get Crypto Prices within the specified time range</li>
