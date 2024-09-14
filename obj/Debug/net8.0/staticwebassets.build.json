@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "KnSy5Fb6+bXnZqWUu0cWldIlpnWEqpPULtbMvSGwUyQ=",
+  "Source": "gkoTradeService",
+  "BasePath": "_content/gkoTradeService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
