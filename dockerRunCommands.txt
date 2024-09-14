@@ -1,5 +1,0 @@
--- BUILD
-docker build -t gko95/gkotradeservice .
-
--- RUN
-docker run -dp 127.0.0.1:8080:8080 gko95/gkotradeservice

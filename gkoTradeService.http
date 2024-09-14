@@ -1,6 +1,0 @@
-@gkoTradeService_HostAddress = http://localhost:5103
-
-GET {{gkoTradeService_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
