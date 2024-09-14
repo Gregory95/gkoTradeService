@@ -4,7 +4,7 @@
 
 <h3>Technologies</h3>
 <ul>
-  <li>.NET Core 6</li>
+  <li>.NET Core 8</li>
   <li>ASP.NET Core Web API</li>
   <li>Entity Framework Core for data access</li>
   <li>In-Memory Database for development</li>
@@ -14,16 +14,24 @@
 <h4>Clone the repository</h4>
 git clone https://github.com/Gregory95/gkoTradeService.git
 cd gkoTradeService
+<br>
 
 Running the Service
+<br>
 Local Development
+<br>
 To run the service locally, use the following command:
+<br>
 
 dotnet run
+<br>
 By default, the service will be hosted at http://localhost:5000.
+<br>
 
 Docker (Optional)
+<br>
 Build and run the service in a Docker container:
+<br>
 
 <h3>Build the Docker image:</h3>
 docker build -t gko95/gkotradeservice .
