@@ -44,14 +44,14 @@ docker run -dp 127.0.0.1:8080:8080 gko95/gkotradeservice
 # The following endpoints are available in the API:
 
 * GET api/cryptoprices?start={datetime}Z&end={datetime} - Get Crypto Prices within the specified time range
-* example
+example
 ```
-http://localhost:8080/api/cryptoprices?start=2024-09-14T14:00:00Z&end=2024-09-14T21:00:00Z
+/api/cryptoprices?start=2024-09-14T14:00:00Z&end=2024-09-14T21:00:00Z
 ```
 
 * GET api/cryptoprices/aggregated-bitcoin-price?timestamp={datetime} - Retrieve the aggregated bitcoin price
-* example
+example
 ```
-http://localhost:5000/api/cryptoprices/aggregated-bitcoin-price?timestamp=2024-09-14T14:00:00Z
+/api/cryptoprices/aggregated-bitcoin-price?timestamp=2024-09-14T14:00:00Z
 ```
 
