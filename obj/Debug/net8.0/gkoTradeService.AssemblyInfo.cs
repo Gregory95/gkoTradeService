@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("gkoTradeService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be95e1b95e73a29c793c598b812f46866e460fb5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f73de8baf28eda19b357cc7fdd6ec9e2951b09b")]
 [assembly: System.Reflection.AssemblyProductAttribute("gkoTradeService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("gkoTradeService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

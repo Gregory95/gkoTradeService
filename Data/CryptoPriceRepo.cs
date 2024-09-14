@@ -33,7 +33,8 @@ namespace GkoTradeService.Data
                     Modified = x.Modified,
                     CryptoName = x.Crypto != 0 ? EnumExtension.GetEnumDescription(x.Crypto) : string.Empty,
                     Crypto = x.Crypto,
-                    Price = x.Price
+                    Price = x.Price,
+                    Timestamp = x.Timestamp
                 })
                 .ToList();
         }
