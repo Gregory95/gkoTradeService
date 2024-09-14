@@ -1,8 +1,8 @@
-<h1>GkoTradeService</h1>
+### GkoTradeService
 
-<p>GkoTradeService is micro-service that was built using ASP.NET Core to retrieve the aggregated bitcoin price.</p>
+* GkoTradeService is micro-service that was built using ASP.NET Core to retrieve the aggregated bitcoin price.
 
-<h3>Technologies</h3>
+## Technologies
 <ul>
   <li>.NET Core 8</li>
   <li>ASP.NET Core Web API</li>
@@ -10,41 +10,41 @@
   <li>In-Memory Database for development</li>
 </ul>
 
-<h3>Getting Started</h3>
-Clone the repository
+## Getting Started
+*Clone the repository
 ```
 git clone https://github.com/Gregory95/gkoTradeService.git
 cd gkoTradeService
 ```
 
-<h3>Running the Service</h3>
-<p>Local Development</p>
+## Running the Service
+* Local Development
 
-<p>To run the service locally, use the following command:</p>
+* To run the service locally, use the following command:
 ```
 dotnet run
 ```
-<p>By default, the service will be hosted at http://localhost:5000.</p>
+* By default, the service will be hosted at http://localhost:5000.
 
 
-<h3>Docker</h3>
-<p>Build and run the service in a Docker container:</p>
+## Docker
+* Build and run the service in a Docker container:
 
-<h3>Build the Docker image:</h3>
+## Build the Docker image:
 ```
 docker build -t gko95/gkotradeservice .
 ```
 
-<h3>Run the container:</h3>
+## Run the container:
 ```
 docker run -dp 127.0.0.1:8080:8080 gko95/gkotradeservice
 ```
 
-<h3>API Endpoints</h3>
-The following endpoints are available in the API:
+## API Endpoints
+* The following endpoints are available in the API:
 
 <ul>
-  <li>**GET** api/cryptoprices?start={datetime}Z&end={datetime} - Get Crypto Prices within the specified time range</li>
-  <li>**GET** api/cryptoprices/aggregated-bitcoin-price?timestamp={datetime} - Retrieve the aggregated bitcoin price</li>
+  <li>GET api/cryptoprices?start={datetime}Z&end={datetime} - Get Crypto Prices within the specified time range</li>
+  <li>GET api/cryptoprices/aggregated-bitcoin-price?timestamp={datetime} - Retrieve the aggregated bitcoin price</li>
 </ul>
 
