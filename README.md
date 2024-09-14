@@ -12,8 +12,8 @@
 
 <h3>Getting Started</h3>
 <h4>Clone the repository</h4>
-git clone https://github.com/yourusername/MyMicroservice.git
-cd MyMicroservice
+git clone https://github.com/Gregory95/gkoTradeService.git
+cd gkoTradeService
 
 Running the Service
 Local Development
