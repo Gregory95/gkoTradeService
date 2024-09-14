@@ -12,32 +12,30 @@
 
 <h3>Getting Started</h3>
 Clone the repository
-<br>
+```
 git clone https://github.com/Gregory95/gkoTradeService.git
 cd gkoTradeService
 
 
-Running the Service
-<br>
-Local Development
-<br>
-To run the service locally, use the following command:
-<br>
+<h3>Running the Service</h3>
+<p>Local Development</p>
 
+<p>To run the service locally, use the following command:</p>
+```
 dotnet run
-<br>
-By default, the service will be hosted at http://localhost:5000.
-<br>
 
-Docker (Optional)
-<br>
-Build and run the service in a Docker container:
-<br>
+<p>By default, the service will be hosted at http://localhost:5000.</p>
+
+
+<h3>Docker</h3>
+<p>Build and run the service in a Docker container:</p>
 
 <h3>Build the Docker image:</h3>
+```
 docker build -t gko95/gkotradeservice .
 
 <h3>Run the container:</h3>
+```
 docker run -dp 127.0.0.1:8080:8080 gko95/gkotradeservice
 
 <h3>API Endpoints</h3>
