@@ -1,8 +1,8 @@
 version: "3.4"
 
 services:
-  gkoTradeService.api:
-    image: ${DOCKER_REGISTRY-}gkoTradeService
+  gkoTradeService:
+    image: gko95/gkotradeservice
     build:
       context: .
       dockerfile: ./Dockerfile
