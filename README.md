@@ -1,7 +1,4 @@
-```markdown
-### Running the Application
-
-<h1>GkoTradeService</h1>
+### GkoTradeService
 
 <p>GkoTradeService is micro-service that was built using ASP.NET Core to retrieve the aggregated bitcoin price.</p>
 
