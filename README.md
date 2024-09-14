@@ -13,6 +13,7 @@
 <h3>Getting Started</h3>
 <h4>Clone the repository</h4>
 git clone https://github.com/Gregory95/gkoTradeService.git
+<br>
 cd gkoTradeService
 <br>
 
