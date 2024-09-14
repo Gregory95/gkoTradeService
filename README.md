@@ -1,6 +1,6 @@
-<h1>MyMicroservice</h1>
+<h1>GkoTradeService</h1>
 
-<p>A simple microservice built using ASP.NET Core to demonstrate a RESTful service with CRUD operations.</p>
+<p>GkoTradeService is micro-service that was built using ASP.NET Core to retrieve the aggregated bitcoin price.</p>
 
 <h3>Technologies</h3>
 <ul>
@@ -11,8 +11,7 @@
 </ul>
 
 <h3>Getting Started</h3>
-<h5>Clone the repository</h5>
-
+<h4>Clone the repository</h4>
 git clone https://github.com/yourusername/MyMicroservice.git
 cd MyMicroservice
 
@@ -21,7 +20,7 @@ Local Development
 To run the service locally, use the following command:
 
 dotnet run
-By default, the service will be hosted at http://localhost:8080.
+By default, the service will be hosted at http://localhost:5000.
 
 Docker (Optional)
 Build and run the service in a Docker container:
