@@ -13,52 +13,30 @@
 <h3>Getting Started</h3>
 <h5>Clone the repository</h5>
 
-<div>git clone https://github.com/yourusername/MyMicroservice.git
-cd MyMicroservice</div>
-
-
-
-Install dependencies
-bash
-Copy code
-dotnet restore
-Database Setup
-For local development, you can use either SQL Server or an In-Memory Database.
-
-Using SQL Server
-Update the appsettings.json file with your SQL Server connection string.
-Apply database migrations:
-bash
-Copy code
-dotnet ef database update
-Using In-Memory Database
-No additional configuration needed. This option is ideal for quick testing.
+git clone https://github.com/yourusername/MyMicroservice.git
+cd MyMicroservice
 
 Running the Service
 Local Development
 To run the service locally, use the following command:
 
-bash
-Copy code
 dotnet run
-By default, the service will be hosted at https://localhost:5001 or http://localhost:5000.
+By default, the service will be hosted at http://localhost:8080.
 
 Docker (Optional)
 Build and run the service in a Docker container:
 
-Build the Docker image:
-bash
-Copy code
-docker build -t mymicroservice .
-Run the container:
-bash
-Copy code
-docker run -d -p 5000:80 mymicroservice
-API Endpoints
+<h3>Build the Docker image:</h3>
+docker build -t gko95/gkotradeservice .
+
+<h3>Run the container:</h3>
+docker run -dp 127.0.0.1:8080:8080 gko95/gkotradeservice
+
+<h3>API Endpoints</h3>
 The following endpoints are available in the API:
 
-GET /api/entities - Get all entities
-GET /api/entities/{id} - Get entity by ID
-POST /api/entities - Create a new entity
-PUT /api/entities/{id} - Update an existing entity
-DELETE /api/entities/{id} - Delete an entity
+<ul>
+  <li>**GET** api/cryptoprices?start={datetime}Z&end={datetime} - Get Crypto Prices within the specified time range</li>
+  <li>**GET** api/cryptoprices/aggregated-bitcoin-price?timestamp={datetime} - Retrieve the aggregated bitcoin price</li>
+</ul>
+
